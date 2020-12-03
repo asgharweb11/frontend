@@ -1,0 +1,10 @@
+.section_pagination{
+    margin-top: 60px;
+}
+
+
+@media (max-width : 960px) {
+    .section_slidbar {
+        display: none;
+    }
+}

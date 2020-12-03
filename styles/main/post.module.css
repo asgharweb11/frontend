@@ -1,0 +1,338 @@
+.container{
+    background: white;
+    padding: 10px;
+    box-shadow: 1px 2px 5px #eaeaea;
+}
+
+.bread{
+    margin-bottom: 20px;
+}
+
+.carousel_container{
+    padding: 10px;
+    border: 1px solid #ececec;
+}
+
+.content{
+    padding: 15px;
+    color: #888888;
+}
+
+.carousel_main{
+    width: 100%;
+}
+
+.carouselBig{
+
+}
+
+.slick-dots li{
+    margin : 0px 10px !important;
+}
+
+.slick-thumb li{
+    margin : 0px 10px !important;
+}
+
+.carouselS{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+}
+
+.carouselS img{
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 0px 5px #cacaca;
+}
+
+
+.boxBuy{
+
+}
+
+.textBtn {
+    margin-right: 10px;
+}
+
+
+
+
+/* ====================================== Content =================================== */
+
+
+
+.header{
+    color: #8a8989;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.title{
+
+}
+
+.title h1{
+
+}
+
+.price{
+
+}
+
+.special{
+    padding: 20px 0px;
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.boxSpecial{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #eaeaea;
+}
+
+.boxIcon{
+    margin-left: 10px;
+    border-left: 1px solid #eaeaea;
+}
+
+.boxText{
+
+}
+
+.descript{
+    color: #b3b3b3;
+}
+
+.numberProduct {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px !important;
+}
+
+.IconNum{
+    margin: 0 10px;
+}
+
+.boxNum{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e2e2e2;
+    border-radius: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 26px #d4d4d4;
+}
+
+
+
+/* =============================== Profile Shop ============================== */
+
+.textAvator {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.textAvator h6{
+    color: #757575;
+    margin-bottom: 5px;
+}
+
+.textAvator p{
+    font-size: 11px;
+    color: #9a9a9a;
+}
+
+.textAvator span{
+    background: #f3f3f3;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: #ff73dc;
+    padding: 5px;
+}
+
+/* ===================================== Posts Like ============================= */
+
+
+.post{
+    padding: 10px;
+    text-align: right;
+}
+
+.postPhotos{
+
+}
+
+.postPhotos img{
+
+}
+
+.postText {
+    padding: 10px;
+    color: #7b7979;
+}
+
+.postText h3{
+    font-size: 18px;
+    color: #5f5e5e;
+}
+
+.postText p{
+    font-size: 15px;
+}
+
+
+/* ===================================== Form Comments ======================================== */
+
+
+.form_header{
+    width: 100%;
+    padding: 20px;
+    color: #757575;
+}
+
+.form_form{
+    width: 100%;
+}
+
+.form_input{
+    padding: 10px;
+}
+
+.form_input textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    border: 1px solid #e4e4e4;
+    padding: 15px;
+    color: #6d6d6d;
+}
+
+.form_input textarea:focus{
+    outline: none;
+}
+
+.form_send{
+    position: absolute;
+    bottom: 45px;
+    left: 35px;
+}
+
+/* ====================================== Comments ======================================= */
+
+.comments{
+    margin-top: 30px;
+}
+
+.comment{
+    padding: 15px;
+    padding-bottom: 55px;
+    background: white;
+    box-shadow: -1px 2px 5px #e8e8e8;
+    border-radius: 5px;
+    margin-bottom: 20px !important;
+}
+
+.commentDetail{
+    position: relative;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background: #ff7ed0;
+    padding: 5px;
+}
+
+.proText{
+    margin-right: 15px;
+}
+
+.proText h6{
+    color: #777777;
+}
+
+.proText span{
+    color: #b9b9b9;
+}
+
+.text{
+    margin-top: 25px;
+    color: #777777;
+}
+
+/* ========================== */
+
+.answer{
+    margin-top: 25px;
+}
+
+.answer_comment{
+    background: #f3f3f3;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-bottom: 30px !important;
+}
+
+/* ============================ */
+
+.sendComment{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+/* =============================== */
+
+.boxTextAnswer{
+    transition: 0.5s;
+    display: none;
+    margin-top: 20px;
+}
+
+.boxTextAnswer_block {
+    display: block;
+}
+.boxTextAnswer_close {
+    display: none;
+}
+
+
+.boxTextAnswer_textarea{
+    margin-bottom: 20px;
+}
+
+.boxTextAnswer_textarea textarea{
+    min-width: 100%;
+    min-height: 100px;
+    border: 1px solid rgb(236, 236, 236);
+    padding: 10px;
+    color: #777777;
+    font-size: 15px;
+}
+
+.boxTextAnswer_textarea textarea:focus{
+    outline: none;
+}
+
+.boxTextAnswer_send{
+
+}

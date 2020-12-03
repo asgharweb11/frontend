@@ -1,0 +1,43 @@
+.contact{
+    margin-top: 50px;
+    background: white;
+    box-shadow: -1px 2px 5px rgb(234 234 234);
+    padding: 15px;
+    text-align: center;
+}
+
+.photo{
+    display: flex;
+}
+
+.photo img{
+    width: 100%;
+}
+
+.waysContacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(102, 102, 102);
+    padding: 15px;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+.title h1{
+    color: rgb(58, 57, 57);
+}
+
+.text{
+
+}
+.text p{
+
+}
+
+.iconsContact{
+    margin-top: 50px;
+}

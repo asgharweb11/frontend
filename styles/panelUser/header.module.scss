@@ -1,0 +1,27 @@
+@import "./global.module.scss";
+
+.header_main{
+    @include flex(row , space-between , center);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.title{
+    color : $color4;
+    padding: 8px;
+    background: white;
+    box-shadow: $boxShadow;
+    border-radius: 5px;
+}
+
+.icons{
+
+}
+
+@media (max-width : 959px){
+    .title{
+        background: none;
+        box-shadow: 0 0 black;
+    }
+
+}

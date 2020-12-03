@@ -1,0 +1,58 @@
+/* ================================== Sidebar ================================= */
+
+.slidbar_main{
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -1px 2px 5px #efefef;
+}
+/* .slidebar_header{
+    
+} */
+
+.slidebar_header h3{
+    color: #ff8989;
+}
+
+.sliderbar_btnunder{
+    margin-right: 25px;
+}
+/* 
+.slidebar_navmenu{
+
+} */
+
+
+/* ===================================== BreadCrumbs ===================================== */
+
+
+.bread_main{
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #ececec;
+}
+
+
+/* ======================================= Posts ================================================ */
+
+.posts_media::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom : 0;
+    background : #27272729
+}
+
+/* ======================================= Posts ================================================ */
+.navCategori_fab{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+
+
+

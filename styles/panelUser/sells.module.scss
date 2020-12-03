@@ -1,0 +1,34 @@
+@import "./global.module.scss";
+
+.allPosts_dataGrid_container{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: $boxShadow;
+}
+
+.allPosts_dataGrid_container{
+    background: $colorWhite;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: $boxShadow;
+    overflow : hidden;
+    position: relative;
+}
+
+.allPosts_dataGrid_title{
+    color: $color3;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.table_tbody{
+    
+}
+
+.table_tbody tr{
+    
+}
+
+.table_tbody td{
+    
+}

@@ -1,0 +1,111 @@
+.detailShop{
+    background: white;
+    text-align: center;
+    box-shadow: -1px 2px 5px rgb(230, 230, 230);
+}
+
+.detailShop_box{
+}
+
+.detailShop_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailShop_cardArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px !important;
+}
+
+
+.detailShop_profile{
+
+}
+
+.detailShop_profile img{
+    width : 130px;
+    height: 130px;;
+    padding: 5px;
+    background: rgb(255, 160, 200);
+    border-radius: 70px;
+}
+
+.detailShop_name{
+    margin-top: 10px;
+}
+
+.detailShop_name h1{
+    color: rgb(80, 79, 79);
+    margin-bottom: 10px;
+}
+
+.detailShop_name h3{
+    color: rgb(110, 110, 110);
+}
+
+.detailShop_name span{
+    background: rgb(247, 125, 186);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.detailShop_descript{
+    margin-top: 30px;
+}
+
+.detailShop_descript p{
+    color: rgb(110, 110, 110);
+    margin-bottom: 10px;
+}
+
+.detailShop_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+/* =================================== Carousel Page Shop ======================================= */
+
+.carousel{
+}
+
+.carousel_carousel{
+    padding: 10px;
+    background: white;
+    box-shadow: -1px 2px 5px #e8e8e8;
+}
+
+.carousel_slider{
+
+}
+
+.carousel_Card{
+
+}
+
+.carouselCardArea img{
+    width: 100%;
+    height: 350px;
+}
+
+
+@media (max-width : 700px){
+    .carouselCardArea img{
+        height: 220px;
+    }
+}
+
+@media (max-width : 550px){
+    .carouselCardArea img{
+        height: 200px;
+    }
+}

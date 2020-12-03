@@ -1,0 +1,262 @@
+.card_main{
+    background: rgb(235, 235, 235);
+    margin-top: 35px !important;
+    box-shadow: -1px 2px 5px #ececec;
+}
+
+.header{
+    padding: 15px;
+    background: white;
+}
+.header_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header_photo{
+    display: flex;
+}
+
+.header_photo img{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    background: rgb(255, 180, 180);
+    border-radius: 45px;
+}
+
+.header_title{
+    margin-right: 10px;
+    color: rgb(95, 95, 95);
+}
+
+.header_title h1{
+    color: rgb(71, 71, 71);
+}
+
+.header_title p{
+
+}
+
+
+/* =============================== Body =========================== */
+
+.body{
+    margin-top: 65px;
+}
+
+.body_body{
+
+}
+
+.body_products{
+
+}
+
+.body_product{
+    background: white;
+    padding: 20px;
+    box-shadow: -1px 2px 5px rgb(216 216 216);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px !important;
+}
+
+.body_close{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_product_detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.body_product_photo{
+    display: flex;
+}
+
+.body_product_photo img{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.body_product_other{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: rgb(100, 100, 100);
+    margin-right: 10px;
+}
+
+.body_product_title{
+    margin-bottom: 5px;
+}
+
+.body_product_title h2{
+    color: rgb(66, 66, 66);
+}
+
+.body_product_detailBuy{
+    display: flex;
+    flex-direction: row;
+}
+
+.body_product_number{
+    padding-left: 10px;
+    border-left: 1px solid #e0e0e0;
+}
+
+.body_product_number input{
+    padding: 0px;
+    width: 40px;
+    border: 1px solid rgb(223, 223, 223);
+    margin-left: 10px;
+    text-align: center;
+}
+
+.body_product_number input:focus{
+    outline: none;
+}
+
+.body_product_number span{
+
+}
+
+.body_product_price{
+
+}
+
+.body_product_price span{
+    margin-right: 10px;
+}
+
+@media (max-width : 570px) {
+    .body_product_detailBuy{
+        flex-direction: row;
+    }
+
+    .body_product_number{
+        border: 0;
+    }
+
+    .body_product_detail{
+        width: 100%;
+        flex-direction : column;
+    }
+
+    .body_product_photo{
+        margin-bottom: 15px;
+    }
+
+    .body_product_photo img{
+        width: 100%;
+        height: 120px;
+    }
+
+    .body_product{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .body_product_other{
+        align-items: center;
+    }
+
+    .body_product_title{
+        margin-bottom: 20px;
+    }
+}
+
+
+/* ======================================== Pay ==================================== */
+
+.pay_box{
+    background: white;
+    color: rgb(88, 88, 88);
+    text-align: center;
+}
+
+.pay_pay{
+
+}
+
+.pay_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay_cardArea{
+
+}
+
+.pay_photo{
+    margin-top: 10px;
+    display: flex;
+}
+
+.pay_photo img{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    background: rgb(255, 163, 163);
+    border-radius: 80px;
+}
+
+.pay_title{
+    margin: 10px 0px 30px 0px;
+}
+
+.pay_title h3{
+    margin-bottom: 5px;
+    color: rgb(70, 69, 69);
+}
+
+.pay_title p{
+    background: #f7ff82;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.pay_price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pay_price p{
+    margin-right : 10px
+}
+
+.pay_buy{
+    padding: 15px;
+    width: 100%;
+}
+
+.pay_buy p{
+    margin-right: 10px;
+}
+
+/* =================================== Footer ================================= */
+
+.footer{
+    margin-top: 60px;
+    background: white;
+    padding: 15px;
+}
+
+.footer_box{
+    text-align: right;
+}

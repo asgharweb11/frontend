@@ -1,0 +1,30 @@
+@import "./global.module.scss";
+
+.payment{
+    margin: 50px 0px;
+    padding: 10px;
+    box-shadow: $boxShadow;
+    background: white;
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    color: $color3;
+    
+}
+
+.text{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e9e9ea;
+    color: $color3;
+}
+
+.submit{
+    margin-top: 20px;
+}

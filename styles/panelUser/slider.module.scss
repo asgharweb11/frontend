@@ -1,0 +1,51 @@
+@import "./global.module.scss";
+
+.slider_main{
+    @include flex(column , center , center);
+    padding-left: 15px;
+    color: $color4;
+}
+
+.slider_box{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.slider_logo{
+    @include flex(row , center , center);
+    margin-bottom: 80px;
+    cursor: pointer;
+    max-width: 280px;
+}
+
+.slider_logo img{
+    width : 100%;
+    border-radius: 15px;
+}
+
+.labelRoot:hover > .labelIcon{
+    color : $colorblue
+}
+
+// .slider_dashboard{
+
+// }
+
+// .service{
+
+// }
+
+// .account{
+
+// }
+
+// .logout{
+//     position: absolute;
+//     bottom: 0;
+// }
+
+@media (max-width : 960px){
+    .slider_main{
+        padding : 0;
+    }
+}

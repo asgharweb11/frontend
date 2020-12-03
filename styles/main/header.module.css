@@ -1,0 +1,432 @@
+.header {
+    width : 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px #e6e6e6;
+    position: relative;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* 
+.logo {
+} */
+.logo img{
+    width : 100px;
+}
+
+.btnMenu{
+    display: none;
+}
+
+
+.links ul li{
+    display: inline-block;
+    transition: 0.5s ease-in-out;
+}
+
+.links ul li:hover{
+    background: #fff6fe;
+    /* background: linear-gradient(0deg, rgba(255,167,167,1) 0%, rgba(255,106,230,1) 100%); */
+}
+
+
+.links li a{
+    width: 100px;
+    height: 100px;
+    display: block;
+    color : #A8A8A8;
+    text-align: center;
+    line-height: 100px;
+    transition: 0.5s ease-in-out;
+    /* background: white; */
+}
+
+.links li a:hover{
+    color : rgb(252, 73, 73);
+}
+
+.avator ul li{
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+/* .active {
+    background: rgb(255,167,167);
+    background: linear-gradient(0deg, rgba(255,167,167,1) 0%, rgba(255,106,230,1) 100%);
+    transition: 0.5s;
+} */
+
+.active a,
+.active a:hover,
+.active:hover,
+.active
+{
+    background: rgb(255,167,167);
+    background: linear-gradient(0deg, rgba(255,167,167,1) 0%, rgba(255,106,230,1) 100%);
+    color : white !important;
+}
+
+
+
+
+/* ========================= Panels User =================== */
+
+.active_btn {
+    display: block;
+}
+
+.inactive_btn {
+    display: none;
+}
+
+.profile_main{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    transition: 0.5s;
+    z-index: 5;
+}
+
+.profile_paper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile_photo {
+    padding: 10px;
+    background: #fff6f6;
+}
+
+.profile_photo img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.profile_detail {
+    text-align: center;
+}
+
+.profile_title {
+    text-align: center;
+    font-size: 25px;
+    color: #c1c1c1;
+}
+
+.profile_title h5{
+    text-align: center;
+    font-size: 27px;
+    color: #c1c1c1;
+    margin-bottom: 30px;
+}
+
+.profile_button {
+    margin-bottom: 30px;
+}
+
+/* .profile_button a {
+
+} */
+
+.profile_links {
+    background: #fdfdfd;
+    padding: 0px 10px;
+}
+
+
+/* ===================================== Panel Cart ================================= */
+
+.cart_container{
+    position: absolute;
+    top : 120px;
+    left: 0px;
+    z-index: 5;
+}
+
+.cart_paper {
+    max-width: 500px;
+    padding: 10px;
+}
+
+.cart_cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(226 226 226);
+    border-radius: 5px;
+    margin-bottom: 10px !important;
+    padding: 10px;
+}
+
+.cart_remove {
+    padding: 10px;
+}
+
+.cart_detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.cart_photo {
+    padding: 30px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+}
+
+.cart_photo img{
+    width: 100px;
+    border-radius: 30px;
+}
+
+.cart_texts {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 10px;
+}
+
+.cart_texts h5{
+    margin: 0px;
+
+}
+.cart_texts p{
+    margin: 0px;
+}
+
+/* .cart_texts span {
+
+} */
+
+.cart_pay {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart_btns button{
+    margin-right: 5px;
+    box-shadow: 0px 0px 5px #fff;
+}
+
+.cart_btns button:hover{
+    box-shadow: 0px 0px 5px rgb(233, 233, 233);
+}
+
+/* 
+.cart_total{
+
+} */
+
+.cart_total p{
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    margin-right: 10px;
+}
+
+.cart_total span{
+    font-weight: 100;
+}
+
+/* ================================== Panel Auth Login ================================ */
+
+.auth_container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    right: 0;
+    left: 0;
+    background: #ff9aadc7;
+    z-index: 10;
+    box-shadow: 0px 0px 10px #b3b3b3;
+    background-image: url("../../public/background/login.jpg");
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 
+.auth_btnClose{
+
+} */
+
+.auth_auth{
+    width: 400px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    margin: 50px 0px !important;
+}
+/* .auth_title {
+
+} */
+
+.auth_title h3 {
+    color: #171717;
+    font-size: 25px;
+}
+/* 
+.auth_inputs{
+
+} */
+
+.style.auth_field{
+    margin-bottom: 15px;
+}
+
+.auth_forgetpass{
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.auth_forgetpass a{
+    font-size: 10px;
+    color: #797979;
+}
+
+.auth_submit{
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.auth_submitRegister{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.auth_SignUp{
+    margin-top: 20px;
+}
+.auth_SignUp p{
+    font-size: 15px;
+    color: #5d5c5c;
+}
+
+.auth_SignUp a{
+    color: #353535;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+
+
+/* ================================== Search ================================ */
+
+.search_main{
+    position: absolute;
+    top: 0;
+    left: 230px;
+    bottom: 0;
+    right: 0;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    display: flex;
+}
+
+/* ================================== NavMenu ================================ */
+
+.navHeader_main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    padding: 10px;
+    margin: 50px 0px;
+}
+
+.navHeader_main img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.navHeader_texts{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.navHeader_texts h4{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.navHeader_texts p {
+    color: #a09f9f;
+}
+
+/* aninmation transition FadeIn */
+.fade_enter {
+    opacity: 0;
+}
+.fade_active_enter {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.fade_exit {
+    opacity: 1;
+}
+.fade_active_exit {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+
+
+/* aninmation transition Bottom */
+.FadeBottom_enter {
+    opacity: 0;
+    transform: translate(0px , 10px);
+}
+.FadeBottom_active_enter {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.FadeBottom_exit {
+    opacity: 1;
+}
+.FadeBottom_active_exit {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+
+
+@media (max-width : 990px){
+    .links{
+        display: none;
+    }
+    .btnMenu{
+        display: block;
+    }
+}

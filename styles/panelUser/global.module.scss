@@ -1,0 +1,27 @@
+@mixin flex($dir , $justify , $align) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+// $color : #d6d4d4;
+$color : #e9e9ea;
+$color2 : #bdbdbd;
+$color3 : #585858;
+$color4 : #929292;
+$color5 : #3a3a3a;
+$colorWhite : white;
+$colorLight : rgb(235, 235, 235);
+$colorRed : rgb(255, 106, 106);
+$colorblue : rgb(92, 116, 255);
+$colorGreen : rgb(116, 235, 93);
+$colorError : rgb(255, 58, 58);
+$colorWarning : rgb(246, 250, 43);
+
+
+
+$boxShadow : 0px 5px 10px 0px rgba(0,0,0,0.12);
+$boxShadow2 : 0px 1px 3px 0px rgba(0,0,0,0.12);
+$boxShadow3 : 0px 5px 10px 0px rgb(0 0 0 / 11%);

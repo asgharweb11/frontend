@@ -1,0 +1,59 @@
+@import "./global.module.scss";
+
+.account{
+    margin-top : 50px;
+    box-shadow : $boxShadow;
+    background : white;
+    padding: 10px;
+}
+
+.show_main{
+    padding: 10px;
+    border: 1px solid $color;
+    transition: 0.5s;
+}
+
+.show_main:hover{
+    box-shadow: $boxShadow;
+}
+
+.show_photo{
+    display: flex;
+}
+
+.show_photo img {
+    width: 130px;
+    height: 130px;
+    border-radius: 75px;
+    padding: 5px;
+    box-shadow: $boxShadow;
+}
+
+.show_texts{
+    text-align: center;
+}
+
+.show_texts h6{
+
+}
+
+.show_texts p{
+    padding: 3px;
+    color: white;
+    background: $colorError;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.show_descript{
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.show_descript p {
+    color : $color3;
+}
+
+.form_header h1{
+    margin-right: 10px;
+}

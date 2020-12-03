@@ -1,0 +1,56 @@
+/* .shops_main{
+    transition: 0.5s ease-in-out;
+    overflow : hidden;
+    height : 230px;
+}
+
+
+.shops_main:hover{
+    height: auto;
+} */
+
+.shops_photos{
+    position: relative;
+}
+
+.shops_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shops_img:hover img{
+}
+
+.shops_img img{
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.shops_texts{
+    text-align: center;
+}
+
+.shops_title{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #565555;
+}
+
+.shops_texts h5{
+
+}
+
+.shops_texts p{
+
+}

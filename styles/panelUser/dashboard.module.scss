@@ -1,0 +1,178 @@
+@import "./global.module.scss";
+
+.statis_gridContainer{
+    margin-top: 30px;
+    color : $color;
+}
+
+.statis_gridItem{
+
+}
+
+.statis_card{
+
+}
+
+.statis_cardArea{
+    flex-direction: row;
+    padding: 10px !important;
+}
+
+.statis_header{
+    @include flex(row , space-between , center);
+    margin-bottom: 30px;
+}
+
+.statis_texts{
+    
+}
+
+.statis_texts p{
+    color : $colorblue;
+}
+
+
+.statis_texts h6{
+    color : $color3;
+}
+
+.statis_icon{
+    background: #eef4ff;
+    border-radius: 10px;
+}
+
+.statis_sod{
+    @include flex(row , flex-start , center);
+}
+
+// =========================== Styles Components Chart =================================
+.chart_conatiner{
+}
+
+.chart_item{
+}
+
+.chart_title{
+    margin-bottom: 20px;
+}
+
+.chart_title h6{
+    color : $color3;
+}
+
+// ===================================
+.chart_slider_container{
+    box-shadow: $boxShadow;
+    background: white;
+    padding : 5px;
+    border-radius: 10px;
+    color : $color3;
+    padding: 10px;
+}
+
+.chart_slider_title{
+    margin-bottom: 10px;
+}
+
+.chart_users {
+
+}
+
+.chart_slider{
+
+}
+
+.chart_slider_cardArea{
+    
+}
+
+.chart_slider_photo{
+    display: flex;
+}
+
+.chart_slider_photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 55px;
+    padding: 5px;
+    background: $colorblue;
+}
+
+.chart_slider_texts{
+    margin-top:20px;
+    text-align: center;
+}
+
+.chart_slider_texts h6{
+    margin-bottom: 5px;
+}
+
+.chart_slider_texts p{
+    background: #fbe7f9;
+    padding: 5px;
+    border-radius: 15px;
+    color : #ff5def;
+}
+
+.chart_slider_activity{
+    @include flex(column , center , center);
+    margin-top: 30px;
+    width: 100%;
+}
+
+.chart_slider_header{
+    margin-bottom: 5px;
+    text-align: right;
+    width: 100%;
+}
+
+.chart_slider_progress{
+    width: 100%;
+    position: relative;
+    border: 1px solid $colorblue;
+    text-align: right;
+    border-radius: 15px;
+}
+
+.chart_slider_progress::after{
+    content: "70%";
+    position: absolute;
+    top: 0;
+    left: 60px;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    @include flex(row , center , center);
+    border-radius: 15px;
+    background: $colorblue;
+}
+
+
+
+// ================================== Styles Components DataGrid =================================
+.dataGrid_container{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: $boxShadow;
+}
+
+.dataGrid_title{
+    padding: 10px;
+    color : $colorblue;
+}
+
+.dataGrid_title h6{
+    
+}
+
+ // ==============================
+
+ @media (max-width : 1215px){
+    .statis_texts h6{
+        font-size: 15px;
+    }
+ }

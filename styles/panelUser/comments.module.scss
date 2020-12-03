@@ -1,0 +1,35 @@
+@import "./global.module.scss";
+
+
+.commnet_photoProfile {
+    display: flex;
+}
+.commnet_photoProfile img{
+    width : 80px;
+    height: 80px;
+    border-radius: 45px;
+    padding: 5px;
+    background: "#fbe5e5";
+}
+
+.commnet_textProfile{
+    margin-right: 10px;
+}
+
+.commnet_textProfile span {
+    background: $colorRed;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.commnet_textarea{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.commnet_btns{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
